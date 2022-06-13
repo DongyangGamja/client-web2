@@ -1,0 +1,225 @@
+
+
+#Coummnity_container{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    margin-top:  -20px;
+}
+
+#userinfo{
+
+    padding-top: 1.5vw;
+    margin-top: 4vw;
+    height: 8vw;
+    width: 17vw;
+    margin-left: 1vw;
+    padding: -1vw;
+    border: solid 2px #a8a4a4;
+    border-radius: 10px;
+    background-color: #ecd9ad;
+        
+}
+
+#userinfo2{
+    float:right;
+    margin-right: 2vw;
+    margin-top: 0.7vw;
+    font-size: 1.7vw;
+}
+
+#profile{
+    margin-left: 2vw;
+    width: 6vw;
+}
+
+
+#name{
+    font-size: 1vw;
+}
+
+#contain_left{
+    width: 20vw;
+    background-color: white;
+    border-right: solid 3px rgb(196, 196, 196);
+
+}
+
+
+#Lookup_container{
+    margin:5px;
+    height: 400px;
+    background-color: white;
+    font-size: 1.3vw;
+    padding-top: 5vh;
+    
+    justify-content: center;
+
+}
+#Mylist:hover{
+    color: #A1A06E;
+}
+
+#report:hover{
+    color:#A1A06E;
+}
+
+
+
+//hover 옵션 적용 div
+#linediv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+
+
+#linediv :hover{
+    color:#A1A06E;
+}
+
+// not hover
+#linediv2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+
+#Mylist{
+    margin-left: 1vw;
+    margin-top: -3vh;
+    font-size: 1.1vw;
+    width: 10vw;
+    padding-left: 1vw;
+    margin-right: 1.7vw;
+    border-right: solid 1px rgb(196, 196, 196);
+}
+
+#report{
+    margin-top: -3vh;
+    width: 10vw;
+    font-size: 1.1vw;
+    padding-right: 1vw;
+    margin-right: 10px;
+    align-items: center;
+}
+
+
+
+#recipe_post{
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    width: 100vw;
+    border-top: solid #1B1F72;
+    border-bottom: solid #1B1F72;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    
+}
+
+#search{
+    margin-left: 1.5vw;
+    width: 15vw;
+    font-size: 1.7vw;
+    margin-top: 1vw;
+    border: solid 2px #6B6A6A;
+    border-radius: 2vw;
+    margin-bottom: 0.5vw;
+    color: #6B6A6A;
+    background-color: #EDEDED;
+     font-family: 'Playfair Display', serif;
+
+}
+#search_img{
+    width: 2.2vw;
+    position: absolute;
+    margin-left: 14.4vw;
+    margin-top: 0.25vw;
+}
+
+
+
+#checklist{
+    margin-left: 0.5vw;
+    width: 1vw;
+    margin-top: 0.5vw;
+    
+}
+
+//------------------------------ Center Cotainer --------------------------------------
+
+#contain_center{
+    width: 60vw;
+    height: 100vh;
+}
+
+
+
+
+#alret{
+    width: 4vw;
+    margin-left: 1vw;
+    margin-top: 0.3vw;
+}
+
+#alrettext{
+    font-size: 2vw;
+    margin-left: 2vw;
+    margin-top: -10px;
+}
+
+
+//게시글을 담는 컨테이너
+#Top5_post_container{
+   
+    margin-top: 80px;
+    width: 55vw;
+    height: 30vw;
+}
+
+
+
+#post_title{
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 2vw;
+    width: 53vw;
+    padding-bottom: 0.7vw;
+    border-bottom: solid 2px #1B1F72;
+}
+#Top5_text{
+    font-size: 2vw;
+    color: red ;
+    font-family: 'Playfair Display', serif;
+}
+
+
+#board_list{
+    margin-top: 1vw;
+    margin-left: 2vw;
+    width: 43vw;
+    color:black;
+    font-size: 2vw;
+}
+
+
+#post_container:hover{
+    color: #A1A06E;
+}
+
+#post_container{
+    margin-top: -5vw;
+    width: 55vw;
+    height: 50vh;
+}
+//------------------------------ Right Cotainer --------------------------------------
+#contain_right{
+    width: 20vw;
+    height: 100vh;
+    background-color: #EDEDED;
+}

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+ 
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+p{
+    margin-block-end: 5px;
+    
+}
+
+a{
+    text-decoration-line: none;
+}
+.bg_container{
+    width: 100vw;           
+    height: 100vh;
+}
+#Bg_img{
+    width: 100%;
+    height: 100%;
+}
+
+.content_container{
+    background-color: white;
+    width: 1300px;
+    height: 840px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;  //flex로
+    flex-direction: row;   //가로 정렬
+    flex-wrap: wrap
+}
+
+.login_container{
+    width: 45%;
+    align-items: center;
+}
+
+.sub_container{
+    width: 55%;
+    background-color:none;
+}
+
+#Login_main{
+    width: 97%;
+    height: 97%;
+}//login_container의 자식
+
+#Logo{
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#Logo_name{
+    margin-left: 10px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+#Table_container{
+    width: 50%;
+}
+
+.Login_text{
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+    padding-right: 180px;
+    margin-bottom: 20px;
+    
+}
+
+
+.table_container{
+    width: 600px;
+    padding-top: 50px;
+}
+
+#IdPw{
+    margin-bottom: 15px;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    border: 2px solid;
+}
+#Pw_visible{
+    position: absolute;
+    margin-left: 435px;
+    margin-top: -56px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+
+.text_container{
+    display: flex;
+    width: 360px;
+    font-size: 1.2em;
+    padding-top: 5px;
+}
+
+
+input[type="checkbox"]{
+    zoom: 1.5;
+}
+
+#Forgot_text{
+    margin-left: 40px;
+}
+
+
+
+#Login_btn{
+    width: 370px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: 91A3AB;
+    border-radius: 5px;
+    font-size: 1.5em;
+    background-color: #91A3AB;
+    color:#FFFFFF;  
+    border: none;  
+}
+
+
+.get_Start_container{
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 120px;
+    display: flex;
+}
+
+#Account{
+    margin-top: 10px;
+}
+
+#Get_Start{
+    color:darkgoldenrod;
+    font: bold;
+    margin-left: 5px;
+
+}
+
+
+.list_view{
+    position: absolute;
+    top: 88%;
+    left: 71.5%;
+}
+
+#list_img{
+    margin-right: 5px;
+    color: antiquewhite;
+}
+

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.bg_container{
+    width: 100vw;
+    align-items: center;
+    
+   
+}
+
+.menu_bar{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    margin-left: 20px;
+    font-family: 'Playfair Display', serif;
+   
+    
+}
+
+.GAMJA{
+    font-size: 2vw;
+    color: Black;
+    
+}
+
+
+
+#Menu_btn{
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+    font-size: 2.2vw;
+    font-family: 'Playfair Display', serif;
+    max-width: 290px;
+    margin-left: 30px;
+}
+#Mypage{
+    width: 17vw;
+    padding-right: 40px;
+    border:  none;
+    background-color: transparent;
+    max-width: 250px;
+}
+
+
+button:hover{
+    color: #A1A06E;
+}
+
+
+
