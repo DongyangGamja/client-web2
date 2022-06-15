@@ -1,6 +1,6 @@
 
 import axios from "axios"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import "./Sign.scss"
 import{Link} from "react-router-dom";
 import { useMediaQuery } from "react-responsive"
@@ -23,7 +23,7 @@ export default function Signup2(){
 //Id, Pw
 let [inputId, setInputId] = useState()
 let [inputPw, setInputPw] = useState()
-let [inputPwc, setInputPwc] = useState()
+let [inputPwc, setInputPwc] = useState("")
 let [inputName, setInputName] = useState()
 
 
@@ -43,8 +43,9 @@ let [inputName, setInputName] = useState()
   const onConfirmPasswordHandler = (event) => {
     setInputPwc(event.currentTarget.value);
   };
-  
-  
+
+
+
   //axios를 통한 회원가입 요청
   const reqRegister = () => {
     if(inputId ==="" || inputPw ==="" || inputName==="" || inputPwc =="" ){
@@ -93,7 +94,7 @@ return(
                   <div><input id="Signcontent" type="password" placeholder="PassWord" onChange={onPasswordHandler} required></input></div>
                   <div><input id="Signcontent" type="password" placeholder="PassWord Agin" onChange={onConfirmPasswordHandler} required></input></div>
                   <div id="PwCheck">
-                    {inputPwc==="" ? null :
+                    {inputPwc=== "" ? null :
                       (inputPw === inputPwc ? <img src="https://cdn-icons-png.flaticon.com/512/6276/6276686.png" alt="비밀번호 일치." width="40px"></img> :
                     <img src="https://cdn-icons-png.flaticon.com/512/6467/6467134.png" alt="비밀번호 일치하지 않습니다.." width="37px"></img>)}</div> 
                   <div><button id="Sign_btn" onClick={reqRegister}>Sign up</button></div>       
