@@ -1,0 +1,75 @@
+.List_container{
+    width: 100vw;
+    background-image: url("../../../public/main_img/background_img.png");
+    height: 100vw;
+    background-size: contain;
+    margin-top: 4vw;
+}
+
+
+.List_Content{
+    margin-left: 12vw;
+    padding-top: 3vw;
+}
+
+#List_top_txt{
+    background-color:#F0B658;
+    width: 40vw;
+    height: 3.5vw;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 550;
+    border-radius: 0.5556vw;
+    transition: 0.5s;
+    line-height: 3.5vw;
+}
+
+.make_new_board_container label{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+    padding-left: 63vw;
+    padding-bottom: 1vw;
+}
+
+#List_write{
+    font-size: 1.5vw;
+
+}
+
+.block_list{
+    width: 58vw;
+    font-size: 2.3vw;
+    color: black;
+    padding-left: 2vw;
+}
+
+.make_new_board_container img{
+    width: 1.5vw;
+    height: 1.5vw;
+    padding-top: 0.35vw;
+    padding-left: 0.5vw;
+}
+
+.List_box{
+    width: 74vw;
+    height: 4.4vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #EEE6DA;
+    margin-bottom: 2vw;
+    padding-top: 1vw;
+    border-radius: 1vw;
+}
+
+.List_box2{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.List_box2 div{
+    padding-top: 0.1vw;
+}

@@ -1,0 +1,67 @@
+.Sign_in_Background_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Sign_in_content{
+    width: 25vw;
+    height: 35vw;
+    position: absolute;
+    margin-left: 18vw;
+    text-align: left;
+    line-height: 3vw;
+    margin-top: 22vw;
+    display: flex;
+    flex-direction: column;
+}
+
+//로그인 txt
+.Sign_in_content h2{
+    font-size: 2.7vw;
+}
+
+
+//input style
+#sign_in_IdPw{
+    width: 23vw;
+    height: 3vw;
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+    padding-left: 1vw;
+    border-radius: 0.5vw;
+    border: 0.2vw solid black;
+}
+
+#sign_in_pw_visible{
+    position: absolute;
+    margin-top: 12.7vw;
+    margin-left: 21.5vw;
+}
+
+#sign_in_pw_visible img{
+    width: 2vw;
+}
+
+
+
+    
+#find_pw{
+    font-size: 1vw;
+    margin-top: -1.2vw;
+    margin-left: 17.5vw;
+}
+
+#sign_in_submit{
+    width: 25vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    border-radius: 1.5vw;
+    border:none;
+    color: white;
+    background-color: #F0B658;
+    cursor: pointer;
+}
+
+#sign_in_submit:hover{
+    background-color: #eaa536;
+}

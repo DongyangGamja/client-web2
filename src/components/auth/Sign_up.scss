@@ -1,0 +1,72 @@
+.Sign_up_Background_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Sign_up_content{
+    width: 25vw;
+    height: 35vw;
+    position: absolute;
+    margin-left: 20vw;
+    text-align: left;
+    line-height: 3vw;
+    margin-top: 22vw;
+    display: flex;
+    flex-direction: column;
+}
+
+//회원가입 txt
+.Sign_up_content h2{
+    font-size: 2.7vw;
+}
+
+
+//input style
+#sign_up_IdPw{
+    width: 20vw;
+    height: 3vw;
+    font-size: 1.2vw;
+    margin-bottom: 1.8vw;
+    padding-left: 1vw;
+    border-radius: 0.5vw;
+    border: 0.2vw solid black;
+}
+
+
+
+
+
+#sign_up_submit{
+    width: 22vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    border-radius: 1.5vw;
+    border:none;
+    color: white;
+    background-color: #F0B658;
+    cursor: pointer;
+    margin-top: 1vw;
+}
+
+#sign_up_submit:hover{
+    background-color: #eaa536;
+}
+
+#pwCheck2{
+    width: 20vw;
+    height: 1vw;
+    font-size: 1vw;
+    color: #EA6666;
+    position: absolute;
+    margin-top: 24.3vw;
+}
+
+#pwCheck1{
+    width: 20vw;
+    height: 1vw;
+    font-size: 1vw;
+    color: #EA6666;
+    position: absolute;
+    margin-top: 19.5vw;
+}
+

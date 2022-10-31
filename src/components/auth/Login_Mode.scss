@@ -1,0 +1,41 @@
+.Login_Mode_Background_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Login_Mode_content{
+    width: 30vw;
+    height: 35vw;
+    position: absolute;
+    margin-left: 15vw;
+    text-align: center;
+    line-height: 3vw;
+    margin-top: 22vw;
+    display: flex;
+    flex-direction: column;
+}
+//감자 이야기 txt
+.Login_Mode_content h2{
+    font-size: 2.7vw;
+}
+//SNS계쩡으로 GAMJA에 참여하세요.txt
+.Login_Mode_content p{
+    font-size: 1.5vw;
+    font-weight: 550;
+}
+
+#Login_Mode_bottom_txt{
+    margin-top: 1vw;
+    font-size: 1vw;
+    color: rgb(47, 47, 47);
+}
+
+#Login_Mode_bottom_txt a{
+    color: black;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+#Login_Mode_bottom_txt a:hover{
+    color: rgb(72, 72, 72);
+}

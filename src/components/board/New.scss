@@ -1,0 +1,82 @@
+.New_board_container{
+    width: 100vw;
+    background-image: url("../../../public/main_img/background_img.png");
+    height: 100vw;
+    background-size: contain;
+    margin-top: 4vw;
+}
+
+
+.New_board_Content{
+    margin-left: 12vw;
+    padding-top: 3vw;
+}
+
+#New_board_top_txt{
+    background-color:#F0B658;
+    width: 40vw;
+    height: 3.5vw;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 550;
+    border-radius: 0.5556vw;
+    transition: 0.5s;
+    line-height: 3.5vw;
+}
+#new_board_title{
+    display: flex;
+    flex-direction: row;
+  
+}
+.New_board_container2{
+    width: 58vw;
+    padding: 2vw;
+    margin-left: 7vw;
+    margin-top: 4vw;
+    border-radius: 2vw;
+}
+
+#new_board_title div{
+    margin-right: 1vw;
+    font-size: 2vw;
+}
+
+#new_board_title input{
+    width: 50vw;
+    font-size: 1.8vw;
+    padding-left: 1vw;
+}
+
+#new_board_content2{
+    margin-top: 1vw;  
+}
+
+#new_board_content2 textarea{
+    width: 55.3vw;
+    height: 20vw;
+    font-size: 1.8vw;
+    padding-left: 1vw;
+}
+
+#new_board_cancle{
+    margin-top: 0.7vw;
+    width: 7vw;
+    height: 3vw;
+    margin-left: 41.7vw;
+    font-size: 1.5vw;
+    background-color: rgba(227, 225, 225, 0.9);
+    color: black;
+    border: none;
+}
+
+#new_board_create{
+    margin-top: 0.7vw;
+    width: 7vw;
+    height: 3vw;
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    background-color:#F0B658;
+    color: #FFFFFF;
+    border: none;
+}

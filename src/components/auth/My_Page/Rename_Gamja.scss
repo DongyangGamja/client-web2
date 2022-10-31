@@ -1,0 +1,94 @@
+.My_Page_Background_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.My_Page_content{
+    width: 25vw;
+    height: 35vw;
+    background-color: white;
+    position: absolute;
+    margin-top: -40vw;
+    margin-left: 7vw;
+    text-align: left; 
+    line-height: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Rename_gamja_content{
+    width: 25vw;
+    height: 35vw;
+    position: absolute;
+    margin-left: 7vw;
+    text-align: left;
+    line-height: 3vw;
+    margin-top: -41.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+//로그인 txt
+.Rename_gamja_content h2{
+    font-size: 2.7vw;
+}
+.Rename_gamja_content h3{
+    font-size: 1.2vw;
+    margin-top: -2.5vw;
+    margin-left: 0.2vw;
+}
+
+#Rename_gamja_img{
+    width: 13vw;
+    margin-left: 5vw;
+    margin-top: -1vw;
+    margin-bottom: 1vw;
+}
+
+#gamja_Name_input{
+    width: 20vw;
+    height: 3vw;
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+    margin-left: 0.2vw;
+    padding-left: 1vw;
+    border-radius: 0.5vw;
+    border: 0.2vw solid black;
+}
+
+#create_gamja_btn{
+    width: 22vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    border-radius: 1.5vw;
+    border:none;
+    color: white;
+    background-color: #F0B658;
+    cursor: pointer;
+}
+
+#create_gamja_btn:hover{
+    background-color: #eaa536;
+}
+
+#Rename_gamja_bottom_txt{
+    margin-top: 0.2vw;
+    margin-left: 0.2vw;
+    font-size: 1vw;
+    color: rgb(47, 47, 47);
+}
+
+
+#Rename_back_btn{
+    width: 3vw;
+    position: absolute;
+    margin-top: -12.7vw;
+    margin-left: 22vw;
+    cursor: pointer;
+}
+
+#Rename_back_btn:hover{
+    opacity: 0.5;
+}

@@ -1,0 +1,48 @@
+.CC_Introduce_container{
+    width: 100vw;
+    background-image: url("../../../public/main_img/background_img.png");
+    height: 100vw;
+    background-size: contain;
+    margin-top: 4vw;
+}
+
+
+.CC_Introduce_Content{
+    margin-left: 12vw;
+    padding-top: 3vw;
+}
+
+#CC_Introduce_top_txt{
+    background-color:#F0B658;
+    width: 40vw;
+    height: 3.5vw;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 550;
+    border-radius: 0.5556vw;
+    transition: 0.5s;
+    line-height: 3.5vw;
+}
+
+
+.CC_Introduce_flex_box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8vw;
+}
+
+.CC_Introduce_flex_box2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    margin-top: 5vw;
+}
+
+
+#CC_introduce_img{
+    width: 60vw;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    margin-bottom: 3vw;
+}

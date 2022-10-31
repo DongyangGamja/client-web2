@@ -1,0 +1,53 @@
+.GAMJA_Stroy_container{
+    width: 100vw;
+    background-image: url("../../../public/main_img/background_img.png");
+    height: 100vw;
+    background-size: contain;
+    margin-top: 4vw;
+}
+
+
+.Stroy_Content{
+    margin-left: 12vw;
+    padding-top: 3vw;
+}
+
+#Story_top_txt{
+    background-color:#F0B658;
+    width: 40vw;
+    height: 3.5vw;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 550;
+    border-radius: 0.5556vw;
+    transition: 0.5s;
+    line-height: 3.5vw;
+}
+
+
+.stroy_container{
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15vw;
+}
+
+#gamja_img{
+    width: 70vw;
+    margin-right: 3vw;
+}
+
+
+#story_txt{
+    width: 40vw;
+    margin-left: 2vw;
+}
+
+
+#gamja_data{
+    width: 70vw;
+    height: 28vw;
+    margin-top: 5vw;
+    margin-left: 0.5vw;
+}

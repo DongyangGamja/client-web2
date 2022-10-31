@@ -1,0 +1,202 @@
+.User_Page_Background_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.User_Page_content{
+    width: 25vw;
+    height: 35vw;
+    background-color: white;
+    position: absolute;
+    margin-top: -40vw;
+    margin-left: 7vw;
+    text-align: left; 
+    line-height: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+.User_Page_content h1{
+    font-size: 2.5vw;
+    margin-top: 2vw;
+}
+
+
+.User_Page_content h3{
+    font-size: 1.7vw;
+    margin-bottom: 1vw;
+    width: 24vw;
+    text-align: center;
+    
+}
+
+#User_Page_img1{
+    width: 14vw;
+    margin-left: 5.5vw;
+    margin-bottom: -1vw;
+}
+
+
+#User_Page_gamja_btn{
+    width: 24.5vw;
+    height: 3.5vw;
+    font-size: 1.5vw;
+    border-radius: 1.5vw;
+    border:none;
+    color: white;
+    background-color: #F0B658;
+    margin-bottom: 0.5vw;
+    cursor: pointer;
+}
+
+#User_Page_gamja_btn:hover{
+    background-color: #eaa536;
+}
+
+#User_change_pw{
+    font-size: 1.2vw;
+    font-weight: 550;
+    width: 23.5vw;
+    text-align: right;
+    margin-top: -0.5vw;
+    color: black;
+}
+
+#User_change_pw:hover{
+    color: rgb(55, 55, 55);
+}
+
+#User_Page_bottom_txt{
+    margin-top: 0.2vw;
+    margin-left: 0.2vw;
+    font-size: 1vw;
+    color: rgb(47, 47, 47);
+}
+
+.User_List_container{
+    width: 36vw;
+    height: 48vw;
+    background-color: white;
+    position: absolute;
+    margin-left: 38vw;
+    text-align: left; 
+    line-height: 3vw;
+    margin-top: -47vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.User_List_container h2{
+    font-size: 1.6vw;
+    color: #ee4947;
+}
+
+.User_List_container h1{
+    font-size: 2.2vw;
+    margin-top: 3vw;
+}
+
+#User_list_back_btn{
+    width: 3vw;
+    position: absolute;
+    margin-left: 31.5vw;
+    margin-top: 3vw;
+    cursor: pointer;
+}
+
+#User_list_back_btn:hover{
+    opacity: 0.6;
+}
+
+.User_page_List_View_container{
+    width: 35vw;
+    height: 3.5vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #EEE6DA;
+    margin-bottom: 2vw;
+    padding-top: 1vw;
+    border-radius: 1vw;
+}
+
+.User_page_List_View_content{
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.List_View_title{
+    
+    margin-left: 1vw;
+    font-weight: 550;
+}
+
+.List_View_date{
+    font-size: 1vw;
+    margin-left: 0.9vw;
+}
+
+
+
+//디테일 창
+
+.User_page_List_Detail_container{
+    width: 30vw;
+    background-color: #EEE6DA;
+}
+
+#User_list_detail_title{
+    font-size: 1.8vw;
+    font-weight: 550;
+    display: flex;
+    flex-direction: row;
+}
+#User_list_detail_title input{
+    font-size: 1.8vw;
+    font-weight: 550;
+    width: 29vw;
+    margin-left: 1vw;
+}
+
+
+#User_list_detail_date{
+    font-size: 0.7vw;
+    margin-left: 23vw;
+}
+
+#User_list_detail_content{
+    width: 35vw;
+    height: 20vw;
+    margin-top: -0.2vw;
+    font-size: 1.2vw;
+    border: #eaa536 solid 0.2vw;
+    padding-left: 0.5vw;
+}
+
+.List_Detail_button_cotainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.List_Detail_button_cotainer button{
+    margin-top: 1vw;
+    background-color: #F0B658;
+    border:none;
+    color: white;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 2vw;
+    font-size: 1.2vw;
+}
+
+.List_Detail_button_cotainer button:hover{
+    background-color: #eaa536;
+}
+
+
+#User_list_retouch{
+    margin-left: 15vw;
+}
+
+#User_list_delete{
+   margin-left: 1vw;
+}

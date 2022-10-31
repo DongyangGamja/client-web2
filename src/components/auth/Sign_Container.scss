@@ -1,0 +1,75 @@
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.Sign_Background_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E8E5DF;
+}
+
+
+#sign_background_img{
+    margin-top: 15vw;
+    width: 100vw;
+    background-repeat: repeat;
+}
+
+
+.Sign_content_container{
+    position: absolute;
+    width: 75vw;
+    height: 50vw;
+    margin-top: -65vw;
+    margin-left: 12.5vw;
+    box-shadow: 1vw 1vw 1vw rgb(90, 90, 90);
+}
+
+
+.Inner_content_display{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#Sign_left_box{
+    width: 50vw;
+    height: 50vw;
+    background-color: white;
+}
+
+#Sign_left_box p{
+    width: 13vw;
+    margin-left: 2vw;
+    font-size: 2.8vw;
+    font-weight: 550;
+    cursor: pointer;
+    color: black;
+}
+
+
+#Sign_left_box p:hover{
+    color:  #F0B658;
+}
+
+#copy_right{
+    width: 30vw;
+    margin-top: 37vw;
+    margin-left: 2vw;
+}
+
+
+#Sign_right_box{
+    width: 40vw;
+    background-color: white;
+    height: 50vw;
+    
+}
+
+#Sign_right_img{
+    width: 40.3vw;
+}

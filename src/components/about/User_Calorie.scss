@@ -1,0 +1,34 @@
+.User_calorie_container{
+    width: 100vw;
+    background-image: url("../../../public/main_img/background_img.png");
+    height: 100vw;
+    background-size: contain;
+    margin-top: 4vw;
+}
+
+
+.User_calorie_Content{
+    margin-left: 12vw;
+    padding-top: 3vw;
+}
+
+#User_calorie_top_txt{
+    background-color:#F0B658;
+    width: 40vw;
+    height: 3.5vw;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 550;
+    border-radius: 0.5556vw;
+    transition: 0.5s;
+    line-height: 3.5vw;
+}
+
+
+.User_calorie_container{
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15vw;
+}

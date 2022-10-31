@@ -1,0 +1,94 @@
+.Detail_container{
+    width: 100vw;
+    background-image: url("../../../public/main_img/background_img.png");
+    height: 100vw;
+    background-size: contain;
+    margin-top: 4vw;
+}
+
+
+.Detail_Content{
+    margin-left: 12vw;
+    padding-top: 3vw;
+}
+
+#detail_top_txt{
+    background-color:#F0B658;
+    width: 40vw;
+    height: 3.5vw;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 550;
+    border-radius: 0.5556vw;
+    transition: 0.5s;
+    line-height: 3.5vw;
+}
+
+
+.detail_main_container{
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15vw;
+}
+
+#detail_title{
+    width:47.8vw;
+    font-size: 3vw;
+    font-weight: 550;
+}
+
+#detail_title input{
+    width: 30vw;
+    font-size: 3vw;
+    font-weight: 550;
+}
+
+
+
+#detail_name{
+    font-size: 1.7vw;
+    width: 48.8vw;
+    margin-top: -2vw;
+}
+
+#detail_date{
+    font-size: 1.5vw;
+    margin-top: 4vw;
+    margin-left: 4vw;
+}
+
+#detail_user_content{
+    font-size: 2vw;
+   margin-top: 2vw;
+}
+#detail_user_content_update{
+    width: 64vw;
+    height: 30vw;
+    font-size: 2vw;
+    margin-top: 2vw;
+}
+
+.detail_information_box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+}
+
+#update_btn{
+    font-size: 1.3vw;
+}
+
+#detail_item{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+#detail_item2{
+    width: 1.5vw;
+    height: 1.3vw;
+    margin-right: 1vw;
+    margin-left: 9.7vw;
+}

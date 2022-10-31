@@ -1,13 +1,18 @@
-import Main from "./components/main/Main";
-import Signup from "./components/auth/Signup"
+import Main from "./components/main/Main2";
 import Detail from "./components/board/Detail";
 import New from "./components/board/New"
 import Board from "./components/board"
-import Auth from "./components/auth/Auth"
-import Login from "./components/auth/Login_container";
 import { useEffect, useState } from "react"
 import Home from "./components/home/index"
-import NewGamja from "./components/auth/NewGamja";
+import Auth from "./components/auth";
+import Sign_in from "./components/auth/Sign_in";
+import Sign_up from "./components/auth/Sign_up";
+import New_gamja from "./components/auth/New_gamja";
+import List from "./components/board/index";
+import My_Page from "./components/auth/My_Page";
+import Rename_Gamja from "./components/auth/My_Page/Rename_Gamja";
+import Reset_Pw from "./components/auth/My_Page/Reset_Pw";
+
 import {
   Routes,
   Route,
@@ -27,14 +32,18 @@ function App() {
   return (
   
     <Routes>
+      <Route path="/board/:id" element={<Detail />} />
       <Route path="/" element={<Home/>} />
       <Route path="/board/:id" element={<Detail />} />
       <Route path="/board/new" element={<New />} />
-       <Route path="/board" element={<Board />} />
-      <Route path="/auth/register" element={<Signup/>} />
-      <Route path="/auth" element={<Auth/>} />
-      <Route path="/auth/login" element={<Login/>} />
-      <Route path="/auth/gamja" element={<NewGamja/>} />
+      <Route path="/board" element={<Board />} /> 
+      <Route path="/auth" element={<Auth />} />
+      <Route path="/sign_in" element={<Sign_in/>} />
+      <Route path="/sign_up" element={<Sign_up/>} />
+      <Route path="/New_gamja" element={<New_gamja/>} />
+      <Route path="/My_Page" element={<My_Page/>} />      
+      <Route path="/Rename" element={<Rename_Gamja/>} />      
+      <Route path="/Reset_Pw" element={<Reset_Pw/>} />      
     </Routes>
   )
 }

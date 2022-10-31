@@ -1,0 +1,94 @@
+.My_Page_Background_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.My_Page_content{
+    width: 25vw;
+    height: 35vw;
+    background-color: white;
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 7vw;
+    text-align: left; 
+    line-height: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Reset_Pw_content{
+    width: 25vw;
+    height: 35vw;
+    position: absolute;
+    margin-left: 7.5vw;
+    text-align: left;
+    line-height: 3vw;
+    margin-top: -38vw;
+    display: flex;
+    flex-direction: column;
+}
+
+//회원가입 txt
+.Reset_Pw_content h2{
+    font-size: 2.7vw;
+}
+
+
+//input style
+#Reset_Pw_IdPw{
+    width: 20vw;
+    height: 3vw;
+    font-size: 1.2vw;
+    margin-bottom: 1.8vw;
+    padding-left: 1vw;
+    border-radius: 0.5vw;
+    border: 0.2vw solid black;
+}
+
+
+
+
+
+#Reset_Pw_submit{
+    width: 22vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    border-radius: 1.5vw;
+    border:none;
+    color: white;
+    background-color: #F0B658;
+    cursor: pointer;
+    margin-top: 0vw;
+}
+
+#Reset_Pw_submit:hover{
+    background-color: #eaa536;
+}
+
+#Reset_pwCheck2{
+    width: 20vw;
+    height: 1vw;
+    font-size: 1vw;
+    color: #EA6666;
+    position: absolute;
+    margin-top: 15.8vw;
+}
+
+#Reset_pwCheck1{
+    width: 20vw;
+    height: 1vw;
+    font-size: 1vw;
+    color: #EA6666;
+    position: absolute;
+    margin-top: 10.5vw;
+}
+
+#Reset_Pw_back_btn{
+    width: 3vw;
+    position: absolute;
+    margin-top: -14.8vw;
+    margin-left: 22vw;
+    cursor: pointer;
+}
