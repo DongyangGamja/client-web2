@@ -115,14 +115,17 @@ export default function User_list_Detail({Num}) {
                   <p>GAMJA</p>
                 </Link>
 
-                <div className="My_Page_content">
-                  <h2>나의 감자</h2>
+                <div className="User_Page_content">
+                  <h1>나의 감자</h1>
                   <img
-                    id="my_Page_img"
+                    id="User_Page_img1"
                     src="./img/GAMJA_join.png"
-                    alt="My_Page_img"
+                    alt="User_Page_img"
                   />
-                  <button id="my_Page_gamja_btn">사용자 정보수정</button>
+                  <h3>{localStorage.getItem("gamja_name")}</h3>
+                  <Link to="/Rename"><button id="User_Page_gamja_btn">이름 변경</button></Link>
+
+                  <Link to ="/Reset_Pw" style={{ textDecoration: "none" }}><div id="User_change_pw">비밀번호 변경</div></Link>
                 </div>
 
                 <div className="User_List_container">

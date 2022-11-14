@@ -65,12 +65,17 @@ export default function Main({ name }) {
   }
 
   const ClickMenu5 = () => {
+    if(localStorage.getItem("accessToken")){
     setIsImg_click1("0")
     setIsImg_click2("0")
     setIsImg_click3("0")
     setIsImg_click4("0")
     setIsImg_click5("0")
     setIsImg_click5("1")
+    }else{
+    window.alert("로그인 후 이용해 주세요.")
+    window.location.replace("/auth") // 로그인 페이지 이동
+  }
   }
 
   useEffect(() => {
@@ -78,25 +83,6 @@ export default function Main({ name }) {
   }, [logined])
   // Profile 클릭 시, JWT 검증 후 페이지 이동
 
-  const getJwtCheck = () => {
-    // JWT 여부에 따른 분기 처리
-    if (localStorage.getItem("accessToken")) {
-      axiosC.get("http://210.90.136.10:3030/jwt").then((res) => {
-        // JWT 인증 실패 분기
-        if (!res.data.result) {
-          window.alert("로그인 하세요!")
-          window.location.replace("/auth") // 로그인 페이지 이동
-        } else {
-          // JWT 인증 성공 분기
-          window.location.replace("/profile") // Profile 페이지 이동
-        }
-      })
-    } else {
-      // JWT 보유 X 분기
-      window.alert("로그인 하세요!")
-      window.location.replace("/auth") // 로그인 페이지 이동
-    }
-  }
   // Logout Click -> logout
   const clickLogout = () => {
     // 보유한 계정 정보 전부 삭제

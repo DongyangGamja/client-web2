@@ -25,10 +25,96 @@
     line-height: 3.5vw;
 }
 
-
-.User_calorie_container{
-    margin-top: 4vw;
+.User_calorie_rowflex_box{
     display: flex;
     flex-direction: row;
+}
+
+
+.User_calorie_container2{
+    margin-top: 4vw;
+    display: flex;
+    flex-direction:column;
     margin-bottom: 15vw;
+    margin-left: 0vw;
+    font-size: 2vw;
+    font-weight: 550;
+}
+
+.user_cc_info{
+    font-size: 2vw;
+    font-weight: 550;
+    color: #f06058;
+}
+
+
+.User_info_input_box{
+    width: 20vw;
+    height: 4vw;
+    border-radius: 1vw;
+    background-color: #EAEAEA;
+    color: #8A8A8A;
+    text-align: center;
+    line-height: 4vw;
+    font-size: 1.5vw;
+}
+
+.User_calorie_container2 p{
+    font-size: 1.7vw;
+    font-weight: 550;
+    margin-top: 1vw;
+    margin-bottom: 0.2vw;
+}
+
+.User_info_input_box input{
+    width: 12vw;
+    font-size: 1.5vw;
+    background-color: transparent;
+    color: #8A8A8A;
+    border: none;
+    text-align: center;
+}
+
+.User_info_input_box button{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: transparent;
+    color: #8A8A8A;
+    border: none;
+    font-size: 1.5vw;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+#post_user_info{
+    width: 20vw;
+    height: 4vw;
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    border: none;
+    background-color:#F0B658;
+    color: #FFFFFF;
+    font-weight: 550;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+#post_user_info:hover{
+    background-color: #eba83b;
+}
+
+#calorie_guide{
+    width: 45vw;
+    margin-left: 10vw;
+    height: 22vw;
+    margin-top: 10vw;
+}
+
+#current_calorie{
+    font-size: 2.5vw;
+    color: #F2C67E;
+}
+
+#current_calorie a{
+    color:#94D18A;
 }

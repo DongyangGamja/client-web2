@@ -30,19 +30,105 @@
     display: flex;
     flex-direction: row;
     margin-top: 8vw;
+    color: #F0B658;
+    
 }
 
 .CC_Introduce_flex_box2{
     display: flex;
     flex-direction: column;
-    margin-left: 3vw;
-    margin-top: 5vw;
 }
 
 
 #CC_introduce_img{
-    width: 60vw;
-    margin-top: 10vw;
-    margin-left: 5vw;
+    width: 25vw;
+    margin-left: 2vw;
     margin-bottom: 3vw;
+    margin-right: 5vw;
+    opacity: 0;
+    animation: transopacity 0.6s ease 0.3s forwards;
+}
+
+.CC_Introduce_flex_box h1{
+    font-size: 4.5vw;
+    font-weight: 150;
+    opacity: 0;
+    animation : slidetext1 0.5s ease-out 0.8s forwards;
+}
+
+.CC_Introduce_flex_box h2{
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-top: -3vw;
+    margin-left: 1vw;
+    opacity: 0;
+    animation : slidetext1 0.7s ease-out 1.3s forwards;
+}
+
+
+.CC_Introduce_flex_box h3{
+    font-size: 2vw;
+    font-weight: 520;
+    margin-left: 1vw;
+    margin-top: 3vw;
+    line-height: 4vw;
+    opacity: 0;
+    animation : slidetext1 1s ease-out 1.8s forwards;
+}
+
+
+//하단 이미지 
+
+#CC_introduce_img2{
+    width: 25vw;
+    margin-left: 2vw;
+    margin-bottom: 3vw;
+    margin-right: 5vw;
+    opacity: 0;
+    animation:  transopacity 1s ease 2.3s forwards;
+}
+
+.CC_Introduce_flex_box3 h1{
+    font-size: 4.5vw;
+    font-weight: 150;
+    opacity: 0;
+    animation : slidetext1 0.5s ease-out 2.8s forwards;
+}
+
+.CC_Introduce_flex_box3 h2{
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-top: -3vw;
+    margin-left: 1vw;
+    opacity: 0;
+    animation : slidetext1 0.7s ease-out 3.3s forwards;
+}
+
+
+.CC_Introduce_flex_box3 h3{
+    font-size: 2vw;
+    font-weight: 520;
+    margin-left: 1vw;
+    margin-top: 3vw;
+    line-height: 4vw;
+    opacity: 0;
+    animation : slidetext1 0.9s ease-out 3.8s forwards;
+}
+
+
+@keyframes transopacity {
+    from{
+        opacity: 0.5;
+    }to{
+        opacity: 1;
+    }
+}
+
+@keyframes slidetext1 {
+    from{
+        margin-left: 10vw;
+        opacity: 0.5;
+    }to{
+        opacity: 1;
+    }
 }
