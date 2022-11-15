@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import { axiosC } from "../../axios"
 import "./User_Calorie.scss"
 import Bottom from "../main/Bottom"
+import moment from "moment"
+import "moment/locale/ko"
 import { Routes, Route, Link } from "react-router-dom"
 
 function User_Calorie() {
@@ -13,7 +15,10 @@ function User_Calorie() {
   const [weight,setweight] = useState("")
   const [Calorie, setCalorie] = useState("")
   const [user_data, setuser_data] = useState("")
-
+  const [today,setToday] =useState("")
+  const [todayCalorie, settodayCalorie] =useState("")
+  const [date, setDate] =useState("")
+  
   useEffect(() => {
     get_userinfo()
   }, [])
@@ -21,6 +26,20 @@ function User_Calorie() {
   useEffect(() => {
     get_User_Calorie()
   }, [])
+
+  useEffect(() => {
+    handledDate()
+  }, [])
+
+  const handledDate = () => {
+    const resDate = new Date()
+    const newDate = []
+    newDate[0] = moment(resDate, "YYYY-MM-DD").format().slice(0, 4)
+    newDate[1] = moment(resDate, "YYYY-MM-DD").format().slice(5, 7)
+    newDate[2] = moment(resDate, "YYYY-MM-DD").format().slice(8, 10)
+    setDate(newDate)
+    setToday(moment(resDate, "YYYY-MM-DD").format().slice(0, 10))
+  }
 
   // useEffect -> axios를 활용한 게시글 데이터 요청
   const get_userinfo = () => {
@@ -31,6 +50,7 @@ function User_Calorie() {
         },
       })
       .then((res) => {
+        
         console.log(res.data.goalKcal)
         setuser_data(res.data.goalKcal) //시간 순서대로 정렬을 위한 reverse, 역순으로 보내지더라..
         setLoading(false) // Loading 종료
@@ -73,16 +93,21 @@ function User_Calorie() {
         },
       })
       .then((res) => {
-        setCalorie(res.data.filter(find_calorie)[0])
-        console.log(res.data.filter(find_calorie)[0])
+        setCalorie(res.data.filter((f)=> f.createdAt.slice(0,10) === today))
+        console.log(res.data)
+        console.log(res.data.filter((f)=> f.createdAt.slice(0,10) === today))
+        console.log(today)
+        let totalCalories =0
+        for(let i =0; i < Calorie.length; i++){
+          let food = parseInt(Calorie[i].kcal)
+          totalCalories += food
+        }
+        settodayCalorie(totalCalories)
+        console.log(todayCalorie)
       })
   }
 
-  function find_calorie(element)  {
-    if(element.idx === 23)  {
-      return true;
-    }
-  }
+
 
   //성별(남, 여)
   const genderclick = (e) => {
@@ -194,7 +219,7 @@ function User_Calorie() {
               <div className="User_calorie_container2">
                   <div id="current_calorie">현재칼로리/<a>목표칼로리</a></div>
                     <br></br>
-                  {Calorie.kcal} / {user_data} Kcal ({Math.round((Calorie.kcal/user_data)*100)}%)
+                  {todayCalorie} / {user_data} Kcal ({Math.round((todayCalorie/user_data)*100)}%)
               </div>
             )}
           </div>

@@ -41,10 +41,10 @@
 
 #app_screen{
     width: 25vw;
-    animation: transopacity 1.1s ease-out 1.5s forwards;
+    animation: transopacity1 1.1s ease-out 1.5s forwards;
 }
 
-@keyframes transopacity {
+@keyframes transopacity1 {
     0%{
         transform: rotate(0deg);
     }33%{
